@@ -28,16 +28,16 @@ Propositions 1 and 3 are true, whereas 2 and 4 are false.
 
 <p><b>Definition 2</b> Let \(p\) be a proposition. The negation of \(p\), denoted by \(\neg p\) (also denoted by \(\overline{p}\)), is the statement "It is not the case that \(p\)". The proposition \(p\) is read "not \(p\)". The truth value f the negation \(p\), \(\neg p\), is the opposite of the truth value of \(p\).</p>
 
-**Example 1**<br>
+<p><b>Example 1</b><br>
 Find the negation of the proposition "Michael's PC runs linux" and express this in simple english.
 <br>
-**Solution**<br>
-The negation is "It is not the case that Michael's PC runs linux". This negation can be more simple expressed as "Michael's PC does not run linux".
+<b>Solution</b><br>
+The negation is "It is not the case that Michael's PC runs linux". This negation can be more simple expressed as "Michael's PC does not run linux".</p>
 
-**Example 2**<br>
+<p><b>Example 2</b><br>
 Find the negation of the proposition "Vandanna's smartphone has at least 32GB of memory" and express this in simple English.
 <br>
-**Solution**<br>
+<b>Solution</b><br>
 The negation is "It is not the case that Vandana's smartphone has at least 32GB of memory". The negation also can be expressed as "Vandana's smartphone doesn't have at least 32GB of memory" or even more simply as "Vandana's smartphone has less than 32GB of memory".
 
 The truth table for the negation of a Proposition.
@@ -94,11 +94,11 @@ The truth table for the conjunction of two propositions.
 
 <p><b>Definition 4</b> Let \(p\) and \(q\) be propositions. The disjunction of \(p\) and \(q\), denoted by \(p \lor q\), is the proposition "p or q". The disjunction of \(p \lor q\) is false when both \(p\) and \(q\) are false and is true otherwise.</p>
 
-**Example 4**<br>
+<p><b>Example 4</b><br>
 What is the disjunction of the propositions \(p\) and \(q\) where \(p\) and \(q\) are the same propositions as in Example 3?
 <br>
-**Solution**<br>
-The disjunction of \(p\) and \(q\), \(p \lor q\), is the proposition "Rebecca's PC has at least 16GB free hard disk space, or the processor in Rebecca's PC runs faster than 1Ghz".
+<b>Solution</b><br>
+The disjunction of \(p\) and \(q\), \(p \lor q\), is the proposition "Rebecca's PC has at least 16GB free hard disk space, or the processor in Rebecca's PC runs faster than 1Ghz".</p>
 
 The truth table for the disjunction of two propositions.
 <table class="table table-bordered">
