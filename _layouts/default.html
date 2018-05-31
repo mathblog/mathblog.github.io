@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+{% include head.html %}
+<body>
+  <!--========== HEADER ==========-->
+  <header class="m-header js__header-fixed">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="{{site.url}}">
+          <img src="{{"/assets/images/" | append : "logo.png"}}" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav scrollable-menu ml-auto">
+            <li class="nav-item"><a href="{{site.url}}" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="{{site.url}}/search" class="nav-link">Search</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="m-banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div  class="m-banner-text">
+            <h3>
+              {% if page.title %}
+              {{page.title}}
+              {% else %}
+              Archive
+              {% endif %}
+            </h3>
+          </div>
+          {% if page.search %}
+          <form>
+            <div class="input-group">
+              <input type="text" id="search-input" class="form-control search-input" placeholder="What are your looking for?" aria-label="What are your looking for?">
+              <div class="input-group-append">
+                <span  class="input-group-text btn-search"><i class="fas fa-search"></i></span>
+              </div>
+            </div>
+          </form>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--========== END HEADER ==========-->
+
+  {{ content }}
+
+  <a class="m-scroll-to-top js__scroll_to_top" href="#"><i class="fa fa-angle-up"></i></a>
+
+  <script type="text/javascript" src="{{ "/assets/js/jquery.js" }}"></script>
+  <script type="text/javascript" src="{{ "/assets/bootstrap/js/bootstrap.min.js" }}"></script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full"></script>
+  {% for js in layout.jsarr %}
+  <script type="text/javascript" src="{{ js }}"></script>
+  {% endfor %}
+  {% for js in page.jsarr %}
+  <script type="text/javascript" src="{{ js }}"></script>
+  {% endfor %}
+
+  <script type="text/javascript" src="{{ "/assets/js/global.js" }}"></script>
+
+  <script type="text/javascript">
+      $(document).ready(function() {
+          if (typeof SimpleJekyllSearch != "undefined") {
+              window.simpleJekyllSearch = new SimpleJekyllSearch({
+                  searchInput: document.getElementById('search-input'),
+                  resultsContainer: document.getElementById('results'),
+                  json: '{{site.url}}/search.json',
+                  searchResultTemplate: '<div class="card">\n' +
+                  '                    <div class="blog-info">\n' +
+                  '                        <h5 class="blog-title"><a href="{url}"><b>{title}</b></a></h5>\n' +
+                  '\n' +
+                  '                        <div class="d-flex avatar-area">\n' +
+                  '                            <a class="avatar m-0 mr-3" href="{url}"><img src="/assets/images/author.jpg" alt="Author Image"></a>\n' +
+                  '                            <div class="right-area">\n' +
+                  '                                <div class="middle">\n' +
+                  '                                    <p class="mb-0"><b>Samuel Yang</b></p>\n' +
+                  '                                    <small>on {date} at {time}</small>\n' +
+                  '                                </div>\n' +
+                  '                            </div>\n' +
+                  '                        </div>\n' +
+                  '\n' +
+                  '                    </div>\n' +
+                  '                </div>',
+                  noResultsText: '<div class="col-12"><h5>No results found</h5></div>',
+                  limit: 12
+              });
+          }
+
+      });
+  </script>
+
+  <footer class="m-footer g-padding-y-40--xs">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 g-text-center--xs g-margin-b-20--xs">
+            <ul class="social-media">
+              <li><a href="https://www.facebook.com/{{ site.social-facebook }}" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://twitter.com/{{ site.social-twitter }}" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://github.com/{{ site.social-github }}" class="github" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li><a href="https://plus.google.com/u/0/110122687053006745589" class="google" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-12">
+              <p class="m-copy-right">&copy; Copyright <a rel="nofollow" href="{{site.url}}">Math101</a>. All right reserved.</p>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <!--========== END FOOTER ==========-->
+</body>
+</html>

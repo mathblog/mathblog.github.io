@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<!--========== PAGE CONTENT ==========-->
+<section class="blog-area g-padding-y-60--xs">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+            <div class="card-columns">
+            {% for post in paginator.posts %}
+                <h1>djfbjdfbjbdjfb</h1>
+                <div class="card">
+                    <div class="blog-info">
+                        <h5 class="blog-title"><a href="{{post.url}}"><b>{{post.title}}</b></a></h5>
+                        <div class="d-flex avatar-area">
+                            <a class="avatar m-0 mr-3" href="{{post.url}}"><img src="{{ "/assets/images/" | append: site.author-img }}" alt="{{post.title}}"></a>
+                            <div class="right-area">
+                                <div class="middle">
+                                    <p class="mb-0"><b>{{site.author}}</b></p>
+                                    <small>on {{ post.date | date: "%B %-d, %Y" }} at {{ post.date | date: "%I:%M %P" }}</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- blog-right -->
+                </div><!-- card -->
+            {% endfor %}
+            </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-8 m-auto">
+            {% include pagination.html %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<!--========== PAGE CONTENT ==========-->
+<section class="g-padding-y-60--xs">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-9">
+        <div class="wrapper">
+          <article>
+            <div class="d-flex avatar-area g-margin-b-30--xs">
+              <a class="avatar m-0 mr-3" href="{{post.url}}"><img src="{{ "/assets/images/" | append: site.author-img }}" alt="{{post.title}}"></a>
+              <div class="right-area">
+                <div class="middle">
+                  <p class="mb-0"><b>{{site.author}}</b></p>
+                  <small>on {{ page.date | date: "%B %-d, %Y" }} at {{ page.date | date: "%I:%M %P" }}</small>
+                </div>
+              </div>
+            </div>
+
+            {{content}}
+
+            <div class="blog-tag">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <h6><span class="fa fa-tag"></span> Article Tags:</h6>
+                </li>
+                {% for tag in page.tags %}
+                <li class="list-inline-item">
+                  <a href="{{site.url}}/tags#{{tag | replace: ' ', '-'}}">{{tag}}{% if forloop.last == false %},{% endif %}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+
+            <div class="blog-share">
+              <ul class="social-share-btns list-inline">
+                <li class="list-inline-item">
+                  <h6>Share on:</h6>
+                </li>
+                <li class="list-inline-item">
+                  <a class="share-btn share-btn-twitter" href='https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}' rel='nofollow' target='_blank'><i class="fab fa-twitter"></i> <span>Tweet</span></a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="share-btn share-btn-facebook"  href='https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}' rel='nofollow' target='_blank'><i class="fab fa-facebook-f"></i> <span>Share</span></a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="share-btn share-btn-google-plus" href='https://plus.google.com/share?url={{ site.url }}{{ page.url }}' rel='nofollow' target='_blank'><i class="fab fa-google-plus-g"></i> <span>Share</span></a>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          {% include disqus.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
