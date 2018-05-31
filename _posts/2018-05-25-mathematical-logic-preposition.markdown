@@ -26,7 +26,7 @@ The following sentences are propositions
 
 Propositions 1 and 3 are true, whereas 2 and 4 are false.
 
-<p><b>Definition 2</b> Let \(p\) be a proposition. The negation of \(p\), denoted by \(\neg p\) (also denoted by \(\overline{p}\)), is the statement "It is not the case that p". The proposition \(p\) is read "not \(p\)". The truth value f the negation \(p\), \(\neg p\), is the opposite of the truth value of \(p\).</p>
+<p><b>Definition 2</b> Let \(p\) be a proposition. The negation of \(p\), denoted by \(\neg p\) (also denoted by \(\overline{p}\)), is the statement "It is not the case that \(p\)". The proposition \(p\) is read "not \(p\)". The truth value f the negation \(p\), \(\neg p\), is the opposite of the truth value of \(p\).</p>
 
 **Example 1**<br>
 Find the negation of the proposition "Michael's PC runs linux" and express this in simple english.
