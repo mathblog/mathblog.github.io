@@ -197,10 +197,10 @@ The truth table for the conditional statement of two prepositions.
 </tr>
 </table>
 
-Given an conditional statement "if \(p\) , then \(q\)", we can create three related statements
-1. Converse: The proposition of \(q \implies p\) is called the converse of \(p \implies q\)
-2. Contrapositive: The proposition of \(\neg q \implies \neg p\) is called the contrapositive of \(p \implies q\)
-3. Inverse: The proposition of \(\neg p \implies \neg q\) is called the inverse of \(p \implies q\)
+<p>Given an conditional statement "if \(p\) , then \(q\)", we can create three related statements<br>
+1. Converse: The proposition of \(q \implies p\) is called the converse of \(p \implies q\)<br>
+2. Contrapositive: The proposition of \(\neg q \implies \neg p\) is called the contrapositive of \(p \implies q\)<br>
+3. Inverse: The proposition of \(\neg p \implies \neg q\) is called the inverse of \(p \implies q\)</p>
 
 <p><b>Example 6</b> <br>
 What are the converse, the contrapositive, and the inverse ot the conditional statement "The home team wins whenever it;s raining"?
