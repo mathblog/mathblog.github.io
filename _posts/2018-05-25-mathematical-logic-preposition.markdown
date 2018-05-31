@@ -54,13 +54,13 @@ The truth table for the negation of a Proposition.
 <td>F</td>
 <td>T</td>
 </tr>
-<table>
+</table>
 
 <p><b>Definition 3</b> Let \(p\) and \(q\) be propositions. The conjunction of \(p\) and \(q\), denoted by \(p \land q\), is the proposition "\(p\) and \(q\)". The conjunction of \(p\) and \(q\) is true when both \(p\) and \(q\) are true and is false otherwise.</p>
 
 <p><b>Example 3</b><br>
 Find the conjunction of the propositions \(p\) and \(q\) where \(p\) is the proposition "Rebecca's PC has more than 16GB free hard disk space" and \(q\) is the proposition "The processor in Rebecca's PC runs faster than 1GHz".<br>
-<b>Solution</b>
+<b>Solution</b><br>
 The conjunction of these prepositions, \(p \land q\), is the preposition "Rebecca's PC has more than 16GB free hard disk space, and the processor in Rebecca's PC runs faster than 1GHz". This conjunction can be expressed more simply as "Rebecca's PC has more than 1GB free hard disk space and its processor runs faster than 1GHz". For this conjunction to be true, both conditions given must be true. It is false, when one or both of these conditions are false.</p>
 
 The truth table for the conjunction of two propositions.
@@ -90,7 +90,7 @@ The truth table for the conjunction of two propositions.
 <td>F</td>
 <td>F</td>
 </tr>
-<table>
+</table>
 
 <p><b>Definition 4</b> Let \(p\) and \(q\) be propositions. The disjunction of \(p\) and \(q\), denoted by \(p \lor q\), is the proposition "p or q". The disjunction of \(p \lor q\) is false when both \(p\) and \(q\) are false and is true otherwise.</p>
 
@@ -158,7 +158,7 @@ The truth table for the exclusive or of two propositions.
 <td>F</td>
 <td>F</td>
 </tr>
-<table>
+</table>
 
 <p><b>Definition 6</b> Let \(p\) and \(q\) be propositions. The conditional statement \(p \implies q\) is the proposition "if \(p\), then \(q\)". The conditional statement \(p \implies q\) is false when \(p\) is true and \(q\) is false, and true otherwise. In the conditional statement \(p \implies q\), \(p\) is called the hypothesis (or antecedent or premise) and \(q\) is called the conslusion (or consequence).</p>
 
@@ -195,7 +195,7 @@ The truth table for the conditional statement of two prepositions.
 <td>F</td>
 <td>T</td>
 </tr>
-<table>
+</table>
 
 Given an conditional statement "if \(p\) , then \(q\)", we can create three related statements
 1. Converse: The proposition of \(q \implies p\) is called the converse of \(p \implies q\)
@@ -260,7 +260,7 @@ The truth table for the converse, the contrapositive, and the inverse of the con
 <td>T</td>
 <td>T</td>
 </tr>
-<table>
+</table>
 
 <p><b>Definition 7</b> Let \(p\) and \(q\) be propositions. The biconditional statement \(p \iff q\) is the proposition "\(p\) if and only if \(q\)". The biconditional statement \(p \iff q\) is true when \(p\) and \(q\) have the same truth values, and is false otherwise. Biconditional statements are also called bi-implications.</p>
 
@@ -295,4 +295,4 @@ The truth table for the biconditional statement of two propositions
 <td>F</td>
 <td>T</td>
 </tr>
-<table>
+</table>
