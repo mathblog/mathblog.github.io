@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Mathematical Logic - Proposition
+title: Mathematical Logic - Propositional Logic
 date: 2018-05-29 16:54:17 +0700
-description: Proposition
+description: Propositional Logic
 tags: [Mathematical Logic]
 ---
 **Definition 1** A statement that is either true or false is called a *proposition*
@@ -13,7 +13,7 @@ Not all sentences are propositions. Questions, exclamations, commands, or self-c
 * Hey there!
 * Do not panic
 * This sentence is false
-* It is s triangle
+* It is a triangle
 * x + 1 = 2
 * x + y = z
 
