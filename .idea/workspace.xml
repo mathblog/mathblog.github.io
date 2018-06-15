@@ -26,8 +26,8 @@
       <file leaf-file-name="2018-06-15-mathematical-logic-propositional-equivalences.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6715">
-              <caret line="388" column="18" lean-forward="true" selection-start-line="388" selection-start-column="18" selection-end-line="388" selection-end-column="18" />
+            <state relative-caret-position="227">
+              <caret line="387" column="37" lean-forward="false" selection-start-line="387" selection-start-column="37" selection-end-line="387" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -38,16 +38,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
               <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -162,12 +152,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528873612348</updated>
       <workItem from="1528873614367" duration="5227000" />
-      <workItem from="1528891525586" duration="27644000" />
+      <workItem from="1528891525586" duration="28482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32871000" />
+    <option name="totallyTimeSpent" value="33709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -286,8 +276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6715">
-          <caret line="388" column="18" lean-forward="true" selection-start-line="388" selection-start-column="18" selection-end-line="388" selection-end-column="18" />
+        <state relative-caret-position="227">
+          <caret line="387" column="37" lean-forward="false" selection-start-line="387" selection-start-column="37" selection-end-line="387" selection-end-column="37" />
           <folding />
         </state>
       </provider>
