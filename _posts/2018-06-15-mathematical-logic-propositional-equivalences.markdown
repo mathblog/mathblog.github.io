@@ -391,7 +391,7 @@ we will use logical equivalences to show that it is logically equivalent to \(\m
 (p \land q) \implies (p \lor q) & \equiv \neg (p \land q) \lor (p \lor q) && \text{because \(p \implies q \equiv \neg p \lor q\)}\\
 & \equiv (\neg p \lor \neg q) \lor (p \lor q) && \text{by the first De Morgan law}\\
 & \equiv (\neg p \lor p) \lor (\neg q \lor q) && \text{by the associative and communitative laws for disjunction}\\
-& \equiv \mathbf T \lor \mathbf T\\\\\\
+& \equiv \mathbf T \lor \mathbf T\\
 & \equiv \mathbf T
 \end{align}</p>
 </div>
