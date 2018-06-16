@@ -163,7 +163,7 @@ The truth table for the exclusive or of two propositions.
 <p><b>Definition 6</b> Let \(p\) and \(q\) be propositions. The conditional statement \(p \implies q\) is the proposition "if \(p\), then \(q\)". The conditional statement \(p \implies q\) is false when \(p\) is true and \(q\) is false, and true otherwise. In the conditional statement \(p \implies q\), \(p\) is called the hypothesis (or antecedent or premise) and \(q\) is called the conslusion (or consequence).</p>
 
 <p><b>Example 5</b> <br>
-Let \(p\) be the statement \(\text{"Maria learns discrete mathematics"}\) and \(q\) the statement \(\text{"Maria will find a good job"|\). Express the statement \(p \implies q\) as a statement in english.
+Let \(p\) be the statement \(\text{"Maria learns discrete mathematics"}\) and \(q\) the statement \(\text{"Maria will find a good job"}\). Express the statement \(p \implies q\) as a statement in english.
 <br>
 <b>Solution</b> <br>
 \(p \implies q\) represents the statement \(\text{"if Maria learns discrete mathematics, then she will find a good

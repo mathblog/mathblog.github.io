@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4122fc06-6c48-4b83-8a60-ea7a3080e6e8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/MathJax/config/TeX-AMS_HTML-full.js" afterPath="$PROJECT_DIR$/assets/MathJax/config/TeX-AMS_HTML-full.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/MathJax/jax/output/HTML-CSS/jax.js" afterPath="$PROJECT_DIR$/assets/MathJax/jax/output/HTML-CSS/jax.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,9 +17,23 @@
       <file leaf-file-name="2018-05-25-mathematical-logic-propositional-logic.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="268" column="229" lean-forward="false" selection-start-line="268" selection-start-column="229" selection-end-line="268" selection-end-column="229" />
+            <state relative-caret-position="355">
+              <caret line="291" column="5" lean-forward="true" selection-start-line="291" selection-start-column="5" selection-end-line="291" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeX-AMS_HTML-full.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/MathJax/config/TeX-AMS_HTML-full.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="42" column="365" lean-forward="false" selection-start-line="42" selection-start-column="365" selection-end-line="42" selection-end-column="365" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1529132264476" expanded="true" signature="55032:55045" ph="..." />
+                <marker date="1529132264476" expanded="true" signature="55338:55351" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,7 +41,7 @@
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="393">
               <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
               <folding />
             </state>
@@ -46,6 +57,7 @@
       <find>displa</find>
       <find>MathJax_Display</find>
       <find>jax:</find>
+      <find>a good j</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,6 +76,7 @@
         <option value="$PROJECT_DIR$/assets/MathJax/config/TeX-AMS_HTML-full.js" />
         <option value="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
       </list>
     </option>
   </component>
@@ -123,6 +136,19 @@
               <item name="mathblog.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="mathblog.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathblog.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MathJax" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mathblog.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathblog.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MathJax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -158,12 +184,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528873612348</updated>
       <workItem from="1528873614367" duration="5227000" />
-      <workItem from="1528891525586" duration="41363000" />
+      <workItem from="1528891525586" duration="42819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46590000" />
+    <option name="totallyTimeSpent" value="48046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -248,14 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -328,18 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/MathJax/config/TeX-AMS_HTML-full.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="42" column="365" lean-forward="false" selection-start-line="42" selection-start-column="365" selection-end-line="42" selection-end-column="365" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1529132264476" expanded="true" signature="55032:55045" ph="..." />
-            <marker date="1529132264476" expanded="true" signature="55338:55351" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/MathJax/MathJax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -378,18 +384,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="393">
           <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/MathJax/config/TeX-AMS_HTML-full.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="42" column="365" lean-forward="false" selection-start-line="42" selection-start-column="365" selection-end-line="42" selection-end-column="365" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1529132264476" expanded="true" signature="55032:55045" ph="..." />
+            <marker date="1529132264476" expanded="true" signature="55338:55351" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="268" column="229" lean-forward="false" selection-start-line="268" selection-start-column="229" selection-end-line="268" selection-end-column="229" />
+        <state relative-caret-position="355">
+          <caret line="291" column="5" lean-forward="true" selection-start-line="291" selection-start-column="5" selection-end-line="291" selection-end-column="5" />
           <folding />
         </state>
       </provider>
