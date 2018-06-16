@@ -352,6 +352,7 @@ Table of Important Logical Equivalences
 </table>
 </div>
 
+
 <p><b>Example 4</b><br>
 Show that \(\neg (p \implies q)\) and \(p \land \neg q\) are logically equivalent.<br>
 <b>Solution</b><br>
@@ -401,5 +402,4 @@ we will use logical equivalences to show that it is logically equivalent to \(\m
 <p><b>Example 7</b><br>
 Determine whether the compound proposition \((p \lor \neg q) \land (q \lor \neg r) \land (r \lor \neg p)\) is satisfiable.<br>
 <b>Solution</b><br>
-Instead of using truth table to solve this problem, we will reason about truth values. Note that \((p \lor \neg q) \land (q \lor \neg r) \land (r \lor \neg p)\) is true when the three variables \(p\), \(q\), and \(r\) have the same truth value.
-Hence, it is satisfiable.</p>
+Instead of using truth table to solve this problem, we will reason about truth values. Note that \((p \lor \neg q) \land (q \lor \neg r) \land (r \lor \neg p)\) is true when the three variables \(p\), \(q\), and \(r\) have the same truth value. Hence, it is satisfiable.</p>

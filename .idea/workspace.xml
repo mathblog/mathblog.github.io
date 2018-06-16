@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4122fc06-6c48-4b83-8a60-ea7a3080e6e8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/MathJax/config/TeX-AMS_HTML-full.js" afterPath="$PROJECT_DIR$/assets/MathJax/config/TeX-AMS_HTML-full.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown" afterPath="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,35 +14,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-05-25-mathematical-logic-propositional-logic.markdown" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="102" column="6" lean-forward="false" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
+            <state relative-caret-position="1022">
+              <caret line="70" column="33" lean-forward="false" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeX-AMS_HTML-full.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/MathJax/config/TeX-AMS_HTML-full.js">
+      <file leaf-file-name="2018-06-16-mathematical-logic-predicates-and-quantifiers.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-16-mathematical-logic-predicates-and-quantifiers.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="42" column="1315" lean-forward="true" selection-start-line="42" selection-start-column="1315" selection-end-line="42" selection-end-column="1315" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1529143443080" expanded="true" signature="55016:55029" ph="..." />
-                <marker date="1529143443080" expanded="true" signature="55322:55335" ph="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <file leaf-file-name="2018-06-15-mathematical-logic-propositional-equivalences.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+            <state relative-caret-position="17">
+              <caret line="352" column="6" lean-forward="true" selection-start-line="352" selection-start-column="6" selection-end-line="352" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -85,13 +81,13 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_includes/pagination.html" />
         <option value="$PROJECT_DIR$/_posts/2018-06-13-mathematical-logic-propositional-equivalences.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown" />
         <option value="$PROJECT_DIR$/assets/MathJax/jax/output/HTML-CSS/config.js" />
         <option value="$PROJECT_DIR$/assets/MathJax/jax/output/HTML-CSS/jax.js" />
         <option value="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/assets/MathJax/config/TeX-AMS_HTML-full.js" />
         <option value="$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown" />
       </list>
     </option>
   </component>
@@ -199,12 +195,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528873612348</updated>
       <workItem from="1528873614367" duration="5227000" />
-      <workItem from="1528891525586" duration="45964000" />
+      <workItem from="1528891525586" duration="47107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51191000" />
+    <option name="totallyTimeSpent" value="52334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -289,14 +285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/MathJax/jax/output/HTML-CSS/autoload/annotation-xml.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -374,9 +362,9 @@
         <state relative-caret-position="374">
           <caret line="42" column="1784" lean-forward="false" selection-start-line="42" selection-start-column="1784" selection-end-line="42" selection-end-column="1784" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1529142544000" expanded="true" signature="55060:55073" ph="..." />
-            <marker date="1529142544000" expanded="true" signature="55366:55379" ph="..." />
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1529143443000" expanded="true" signature="55060:55073" ph="..." />
+            <marker date="1529143443000" expanded="true" signature="55366:55379" ph="..." />
           </folding>
         </state>
       </provider>
@@ -407,18 +395,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="70" column="33" lean-forward="true" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+        <state relative-caret-position="219">
+          <caret line="302" column="0" lean-forward="true" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/MathJax/config/TeX-AMS_HTML-full.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="42" column="1315" lean-forward="true" selection-start-line="42" selection-start-column="1315" selection-end-line="42" selection-end-column="1315" />
+        <state relative-caret-position="68">
+          <caret line="42" column="960" lean-forward="false" selection-start-line="42" selection-start-column="960" selection-end-line="42" selection-end-column="960" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <marker date="1529143443080" expanded="true" signature="55016:55029" ph="..." />
@@ -427,10 +415,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="102" column="6" lean-forward="false" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
+        <state relative-caret-position="1022">
+          <caret line="70" column="33" lean-forward="false" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-16-mathematical-logic-predicates-and-quantifiers.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="352" column="6" lean-forward="true" selection-start-line="352" selection-start-column="6" selection-end-line="352" selection-end-column="6" />
           <folding />
         </state>
       </provider>
