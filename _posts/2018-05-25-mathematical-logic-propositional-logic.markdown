@@ -23,7 +23,7 @@ tags: [Mathematical Logic]
 <li>Washington, D.C., is the capital of the United States of America</li>
 <li>Toronto is the capital of Canada</li>
 <li>1 + 1 = 2</li>
-<li>2 + 2 = 3</li></ul>
+<li>2 + 2 = 3</li></ol>
 
 <p>Propositions 1 and 3 are true, whereas 2 and 4 are false.</p>
 
