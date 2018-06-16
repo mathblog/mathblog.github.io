@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mathematical Logic - Predicates and Quantifiers
-date: 2018-06-15 16:54:17 +0700
+date: 2018-06-16 16:54:17 +0700
 description: Predicates and Quantifiers
 tags: [Mathematical Logic]
 ---
