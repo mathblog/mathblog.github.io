@@ -37,7 +37,7 @@ Show that \(\neg (p \lor q)\) and \(\neg p \land \neg q\) are logically equivale
 <b>Solution</b><br>
 As you can see the truth table for these compound propositions displayed below, it follows that \(\neg (p \lor q) \implies (\neg p \land \neg q)\) is a tautology and these compound propositions are logically equivalent.</p>
 
-Truth table for \(\neg (p \lor q)\) and \(\neg p \land \neg q\)
+<p>Truth table for \(\neg (p \lor q)\) and \(\neg p \land \neg q\)</p>
 
 <div style="overflow:auto;">
 <table class="table table-bordered">
@@ -94,7 +94,7 @@ Show that \(p \implies q\) and \(\neg p \lor q\) are logically equivalent.<br>
 <b>Solution</b><br>
 As shown below, the truth values of \(p \implies q\) and \(\neg p \lor q\) agree, these compound propositions are logically equivalent.</p>
 
-The truth table for \(p \implies q\) and \(\neg p \lor q\)
+<p>The truth table for \(p \implies q\) and \(\neg p \lor q\)</p>
 
 <div style="overflow:auto;">
 <table class="table table-bordered">
@@ -152,7 +152,7 @@ distributive law of disjunction over conjunction.<br>
 <b>Solution</b><br>
 As shown below, the truth values of \(p \implies q\) and \(\neg p \lor q\) agree, so these compound propositions are logically equivalent.</p>
 
-The truth table for \(p \lor (q \land r)\) and \((p \lor q) \land (p \lor q)\)
+<p>The truth table for \(p \lor (q \land r)\) and \((p \lor q) \land (p \lor q)\)</p>
 
 <div style="overflow:auto;">
 <table class="table table-bordered">
@@ -356,17 +356,17 @@ Show that \(\neg (p \implies q)\) and \(p \land \neg q\) are logically equivalen
 <b>Solution</b><br>
 It's a lot easier if we use logical identities as shown in the table above to show that these compound propositions are logically equivalent.</p>
 
-\begin{align}
+<p>\begin{align}
 \neg (p \implies q) & \equiv \neg (\neg p \lor q)\\\\\\
 & \equiv \neg (\neg p) \land \neg q  && \text{by the second De Morgan law}\\\\\\
 & \equiv p \land \neg q && \text{by the double negation law}
-\end{align}
+\end{align}</p>
 
 <p><b>Example 5</b><br>
 Show that \(\neg (p \lor (\neg p \land q))\) and \(\neg p \land \neg q\) are logically equivalent.<br>
 <b>Solution</b></p>
 
-\begin{align}
+<p>\begin{align}
 \neg (p \lor (\neg p \land q)) & \equiv \neg p \land \neg (\neg p \land q) && \text{by the second De Morgan law}\\\\\\
 & \equiv \neg p \land [\neg (\neg p) \lor \neg q] && \text{be the first De Morgan law}\\\\\\
 & \equiv \neg p \land (p \lor \neg q) && \text{by the double negation law}\\\\\\
@@ -374,20 +374,20 @@ Show that \(\neg (p \lor (\neg p \land q))\) and \(\neg p \land \neg q\) are log
 & \equiv \mathbf F \lor (\neg p \land \neg q) && \text{because \neg p \land p \equiv \mathbf F}\\\\\\
 & \equiv (\neg p \land \neg q) \lor \mathbf F && \text{by the communitative law for disjunction}\\\\\\
 & \equiv (\neg p \land \neg q) && \text{by the identity law for \mathbf F}
-\end{align}
+\end{align}</p>
 
 <p><b>Example 6</b><br>
 Show that \((p \land q) \implies (p \lor q)\) is a tautology.<br>
 <b>Solution</b><br>
 we will use logical equivalences to show that it is logically equivalent to \(\mathbf T\).</p>
 
-\begin{align}
+<p>\begin{align}
 (p \land q) \implies (p \lor q) & \equiv \neg (p \land q) \lor (p \lor q) && \text{because p \implies q \equiv \neg p \lor q}\\\\\\
 & \equiv (\neg p \lor \neg q) \lor (p \lor q) && \text{by the first De Morgan law}\\\\\\
 & \equiv (\neg p \lor p) \lor (\neg q \lor q) && \text{by the associative and communitative laws for disjunction}\\\\\\
 & \equiv \mathbf T \lor \mathbf T\\\\\\
 & \equiv \mathbf T
-\end{align}
+\end{align}</p>
 
 <p><b>Definition 3</b> A compound is <em>satisfiable</em> if there is an assignment of truth values to its variables that makes it true. When the compound proposition is false for all assignments of truth values to its variables, the compound proposition is <em>unsatisfiable</em></p>
 
