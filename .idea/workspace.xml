@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4122fc06-6c48-4b83-8a60-ea7a3080e6e8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown" afterPath="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/MathJax/jax/output/HTML-CSS/config.js" afterPath="$PROJECT_DIR$/assets/MathJax/jax/output/HTML-CSS/config.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,9 +27,21 @@
       <file leaf-file-name="2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="7" column="268" lean-forward="false" selection-start-line="7" selection-start-column="268" selection-end-line="7" selection-end-column="268" />
+            <state relative-caret-position="187">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/MathJax/jax/output/HTML-CSS/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="1019" lean-forward="true" selection-start-line="18" selection-start-column="1019" selection-end-line="18" selection-end-column="1019" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,6 +76,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-06-13-mathematical-logic-propositional-equivalences.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown" />
+        <option value="$PROJECT_DIR$/assets/MathJax/jax/output/HTML-CSS/config.js" />
         <option value="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown" />
       </list>
     </option>
@@ -118,6 +132,41 @@
               <item name="mathblog.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="_posts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="mathblog.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathblog.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mathblog.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathblog.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MathJax" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mathblog.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathblog.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MathJax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="jax" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mathblog.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathblog.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MathJax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="jax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="output" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mathblog.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mathblog.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MathJax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="jax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="output" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="HTML-CSS" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -153,12 +202,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528873612348</updated>
       <workItem from="1528873614367" duration="5227000" />
-      <workItem from="1528891525586" duration="34318000" />
+      <workItem from="1528891525586" duration="35613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39545000" />
+    <option name="totallyTimeSpent" value="40840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -275,10 +324,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/MathJax/jax/output/HTML-CSS/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="1019" lean-forward="true" selection-start-line="18" selection-start-column="1019" selection-end-line="18" selection-end-column="1019" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="7" column="268" lean-forward="false" selection-start-line="7" selection-start-column="268" selection-end-line="7" selection-end-column="268" />
+        <state relative-caret-position="187">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
