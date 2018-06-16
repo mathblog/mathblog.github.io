@@ -94,11 +94,13 @@ The truth table for the conjunction of two propositions.
 
 <p><b>Definition 4</b> Let \(p\) and \(q\) be propositions. The disjunction of \(p\) and \(q\), denoted by \(p \lor q\), is the proposition "p or q". The disjunction of \(p \lor q\) is false when both \(p\) and \(q\) are false and is true otherwise.</p>
 
+<div style="overflow:auto;">
 <p><b>Example 4</b><br>
 What is the disjunction of the propositions \(p\) and \(q\) where \(p\) and \(q\) are the same propositions as in Example 3?
 <br>
 <b>Solution</b><br>
 The disjunction of \(p\) and \(q\), \(p \lor q\), is the proposition \(\text{"Rebecca's PC has at least 16GB free hard disk space, or the processor in Rebecca's PC runs faster than 1Ghz"}\).</p>
+</div>
 
 The truth table for the disjunction of two propositions.
 <table class="table table-bordered">
@@ -265,8 +267,10 @@ The truth table for the converse, the contrapositive, and the inverse of the con
 
 <p><b>Definition 7</b> Let \(p\) and \(q\) be propositions. The biconditional statement \(p \iff q\) is the proposition "\(p\) if and only if \(q\)". The biconditional statement \(p \iff q\) is true when \(p\) and \(q\) have the same truth values, and is false otherwise. Biconditional statements are also called bi-implications.</p>
 
+<div style="overflow:auto;">
 <p><b>Example 7</b> <br>
 Let \(p\) be the statement \(\text{"You can take the flight"}\) and let \(q\) be the statement \(\text{"You buy a ticket"}\). Then \(p \iff q\) is the statement \(\text{"You can take the flight if and only if you buy a ticket"}\).</p>
+</div>
 
 The truth table for the biconditional statement of two propositions
 <table class="table table-bordered">
