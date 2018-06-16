@@ -16,8 +16,8 @@
       <file leaf-file-name="2018-05-25-mathematical-logic-propositional-logic.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="370">
+              <caret line="144" column="2" lean-forward="false" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -204,12 +204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528873612348</updated>
       <workItem from="1528873614367" duration="5227000" />
-      <workItem from="1528891525586" duration="48284000" />
+      <workItem from="1528891525586" duration="48384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53511000" />
+    <option name="totallyTimeSpent" value="53611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -442,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="370">
+          <caret line="144" column="2" lean-forward="false" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
           <folding />
         </state>
       </provider>

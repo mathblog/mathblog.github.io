@@ -142,7 +142,7 @@ The disjunction of \(p\) and \(q\), \(p \lor q\), is the proposition \(\text{"Re
 <td>F</td>
 <td>F</td>
 </tr>
-<table>
+</table>
 </div>
 
 <p><b>Definition 5</b> Let \(p\) and \(q\) be propositions. The exclusive or of \(p\) and \(q\), denoted by \(p \oplus q\), is the proposition that is true when exactly one of \(p\) and \(q\) is true and is false otherwise.</p>
