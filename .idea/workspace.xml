@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4122fc06-6c48-4b83-8a60-ea7a3080e6e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown" afterPath="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown" />
-    </list>
+    <list default="true" id="4122fc06-6c48-4b83-8a60-ea7a3080e6e8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,18 +14,18 @@
       <file leaf-file-name="2018-05-25-mathematical-logic-propositional-logic.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-15-mathematical-logic-propositional-equivalences.markdown" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown">
+      <file leaf-file-name="2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="393" column="35" lean-forward="true" selection-start-line="393" selection-start-column="35" selection-end-line="393" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,7 +34,7 @@
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
+            <state relative-caret-position="240">
               <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
               <folding />
             </state>
@@ -58,12 +56,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-preposition.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_includes/pagination.html" />
         <option value="$PROJECT_DIR$/_posts/2018-06-13-mathematical-logic-propositional-equivalences.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown" />
       </list>
     </option>
   </component>
@@ -153,12 +151,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528873612348</updated>
       <workItem from="1528873614367" duration="5227000" />
-      <workItem from="1528891525586" duration="31457000" />
+      <workItem from="1528891525586" duration="34027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36684000" />
+    <option name="totallyTimeSpent" value="39254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -251,34 +249,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="240">
           <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="393" column="35" lean-forward="true" selection-start-line="393" selection-start-column="35" selection-end-line="393" selection-end-column="35" />
+        <state relative-caret-position="221">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-25-mathematical-logic-propositional-logic.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-predicates-and-quantifiers.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
