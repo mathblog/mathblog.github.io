@@ -147,8 +147,7 @@ As shown below, the truth values of \(p \implies q\) and \(\neg p \lor q\) agree
 </div>
 
 <p><b>Example 3</b><br>
-Show that \(p \lor (q \land r)\) and \((p \lor q) \land (p \lor q)\) are logically equivalent. This is the
-distributive law of disjunction over conjunction.<br>
+Show that \(p \lor (q \land r)\) and \((p \lor q) \land (p \lor q)\) are logically equivalent. This is the distributive law of disjunction over conjunction.<br>
 <b>Solution</b><br>
 As shown below, the truth values of \(p \implies q\) and \(\neg p \lor q\) agree, so these compound propositions are logically equivalent.</p>
 
@@ -357,8 +356,8 @@ Show that \(\neg (p \implies q)\) and \(p \land \neg q\) are logically equivalen
 It's a lot easier if we use logical identities as shown in the table above to show that these compound propositions are logically equivalent.</p>
 
 <p>\begin{align}
-\neg (p \implies q) & \equiv \neg (\neg p \lor q)\\\\\\
-& \equiv \neg (\neg p) \land \neg q  && \text{by the second De Morgan law}\\\\\\
+\neg (p \implies q) & \equiv \neg (\neg p \lor q)\\
+& \equiv \neg (\neg p) \land \neg q  && \text{by the second De Morgan law}\\
 & \equiv p \land \neg q && \text{by the double negation law}
 \end{align}</p>
 
@@ -367,13 +366,13 @@ Show that \(\neg (p \lor (\neg p \land q))\) and \(\neg p \land \neg q\) are log
 <b>Solution</b></p>
 
 <p>\begin{align}
-\neg (p \lor (\neg p \land q)) & \equiv \neg p \land \neg (\neg p \land q) && \text{by the second De Morgan law}\\\\\\
-& \equiv \neg p \land [\neg (\neg p) \lor \neg q] && \text{be the first De Morgan law}\\\\\\
-& \equiv \neg p \land (p \lor \neg q) && \text{by the double negation law}\\\\\\
-& \equiv (\neg p \land p) \lor (\neg p \land \neg q) && \text{by the second distributive law}\\\\\\
-& \equiv \mathbf F \lor (\neg p \land \neg q) && \text{because \neg p \land p \equiv \mathbf F}\\\\\\
-& \equiv (\neg p \land \neg q) \lor \mathbf F && \text{by the communitative law for disjunction}\\\\\\
-& \equiv (\neg p \land \neg q) && \text{by the identity law for \mathbf F}
+\neg (p \lor (\neg p \land q)) & \equiv \neg p \land \neg (\neg p \land q) && \text{by the second De Morgan law}\\
+& \equiv \neg p \land [\neg (\neg p) \lor \neg q] && \text{be the first De Morgan law}\\
+& \equiv \neg p \land (p \lor \neg q) && \text{by the double negation law}\\
+& \equiv (\neg p \land p) \lor (\neg p \land \neg q) && \text{by the second distributive law}\\
+& \equiv \mathbf F \lor (\neg p \land \neg q) && \text{because \(\neg p \land p \equiv \mathbf F\)}\\
+& \equiv (\neg p \land \neg q) \lor \mathbf F && \text{by the communitative law for disjunction}\\
+& \equiv (\neg p \land \neg q) && \text{by the identity law for \(\mathbf F\)}
 \end{align}</p>
 
 <p><b>Example 6</b><br>
@@ -382,9 +381,9 @@ Show that \((p \land q) \implies (p \lor q)\) is a tautology.<br>
 we will use logical equivalences to show that it is logically equivalent to \(\mathbf T\).</p>
 
 <p>\begin{align}
-(p \land q) \implies (p \lor q) & \equiv \neg (p \land q) \lor (p \lor q) && \text{because p \implies q \equiv \neg p \lor q}\\\\\\
-& \equiv (\neg p \lor \neg q) \lor (p \lor q) && \text{by the first De Morgan law}\\\\\\
-& \equiv (\neg p \lor p) \lor (\neg q \lor q) && \text{by the associative and communitative laws for disjunction}\\\\\\
+(p \land q) \implies (p \lor q) & \equiv \neg (p \land q) \lor (p \lor q) && \text{because \(p \implies q \equiv \neg p \lor q\)}\\
+& \equiv (\neg p \lor \neg q) \lor (p \lor q) && \text{by the first De Morgan law}\\
+& \equiv (\neg p \lor p) \lor (\neg q \lor q) && \text{by the associative and communitative laws for disjunction}\\
 & \equiv \mathbf T \lor \mathbf T\\\\\\
 & \equiv \mathbf T
 \end{align}</p>
