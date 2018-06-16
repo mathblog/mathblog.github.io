@@ -251,6 +251,7 @@ As shown below, the truth values of \(p \implies q\) and \(\neg p \lor q\) agree
 
 Table of Important Logical Equivalences
 
+<div style="overflow:auto;">
 <table class="table table-bordered">
 <tr>
 <th>Equivalence</th>
@@ -349,22 +350,26 @@ Table of Important Logical Equivalences
 <td>&nbsp;</td>
 </tr>
 </table>
+</div>
 
 <p><b>Example 4</b><br>
 Show that \(\neg (p \implies q)\) and \(p \land \neg q\) are logically equivalent.<br>
 <b>Solution</b><br>
 It's a lot easier if we use logical identities as shown in the table above to show that these compound propositions are logically equivalent.</p>
 
+<div style="overflow:auto;">
 <p>\begin{align}
 \neg (p \implies q) & \equiv \neg (\neg p \lor q)\\
 & \equiv \neg (\neg p) \land \neg q  && \text{by the second De Morgan law}\\
 & \equiv p \land \neg q && \text{by the double negation law}
 \end{align}</p>
+</div>
 
 <p><b>Example 5</b><br>
 Show that \(\neg (p \lor (\neg p \land q))\) and \(\neg p \land \neg q\) are logically equivalent.<br>
 <b>Solution</b></p>
 
+<div style="overflow:auto;">
 <p>\begin{align}
 \neg (p \lor (\neg p \land q)) & \equiv \neg p \land \neg (\neg p \land q) && \text{by the second De Morgan law}\\
 & \equiv \neg p \land [\neg (\neg p) \lor \neg q] && \text{be the first De Morgan law}\\
@@ -374,12 +379,14 @@ Show that \(\neg (p \lor (\neg p \land q))\) and \(\neg p \land \neg q\) are log
 & \equiv (\neg p \land \neg q) \lor \mathbf F && \text{by the communitative law for disjunction}\\
 & \equiv (\neg p \land \neg q) && \text{by the identity law for \(\mathbf F\)}
 \end{align}</p>
+</div>
 
 <p><b>Example 6</b><br>
 Show that \((p \land q) \implies (p \lor q)\) is a tautology.<br>
 <b>Solution</b><br>
 we will use logical equivalences to show that it is logically equivalent to \(\mathbf T\).</p>
 
+<div style="overflow:auto;">
 <p>\begin{align}
 (p \land q) \implies (p \lor q) & \equiv \neg (p \land q) \lor (p \lor q) && \text{because \(p \implies q \equiv \neg p \lor q\)}\\
 & \equiv (\neg p \lor \neg q) \lor (p \lor q) && \text{by the first De Morgan law}\\
@@ -387,6 +394,7 @@ we will use logical equivalences to show that it is logically equivalent to \(\m
 & \equiv \mathbf T \lor \mathbf T\\\\\\
 & \equiv \mathbf T
 \end{align}</p>
+</div>
 
 <p><b>Definition 3</b> A compound is <em>satisfiable</em> if there is an assignment of truth values to its variables that makes it true. When the compound proposition is false for all assignments of truth values to its variables, the compound proposition is <em>unsatisfiable</em></p>
 
