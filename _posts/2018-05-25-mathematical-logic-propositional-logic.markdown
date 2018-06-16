@@ -39,10 +39,9 @@ The negation is \(\text{"It is not the case that Michael's PC runs linux"}\). Th
 
 <div style="overflow:auto;">
 <p><b>Example 2</b><br>
-Find the negation of the proposition \(\text{"Vandanna's smartphone has at least 32GB of memory"}\) and express this in simple English.
-<br>
+Find the negation of the proposition \(\text{"Vandanna's smartphone has at least 32GB of memory"}\) and express this in simple English.<br>
 <b>Solution</b><br>
-The negation is \(\text{"It is not the case that Vandana's smartphone has at least 32GB of memory"}\). The negation also can be expressed as \(\text{"Vandana's smartphone doesn't have at least 32GB of memory"}\) or even more simply as \(\text{"Vandana's smartphone has less than 32GB of memory"}\).
+The negation is \(\text{"It is not the case that Vandana's smartphone has at least 32GB of memory"}\). The negation also can be expressed as \(\text{"Vandana's smartphone doesn't have at least 32GB of memory"}\) or even more simply as \(\text{"Vandana's smartphone has less than 32GB of memory"}\).</p>
 </div>
 
 <p>The truth table for the negation of a Proposition.</p>
@@ -109,8 +108,7 @@ The conjunction of these prepositions, \(p \land q\), is the preposition \(\text
 
 <div style="overflow:auto;">
 <p><b>Example 4</b><br>
-What is the disjunction of the propositions \(p\) and \(q\) where \(p\) and \(q\) are the same propositions as in Example 3?
-<br>
+What is the disjunction of the propositions \(p\) and \(q\) where \(p\) and \(q\) are the same propositions as in Example 3?<br>
 <b>Solution</b><br>
 The disjunction of \(p\) and \(q\), \(p \lor q\), is the proposition \(\text{"Rebecca's PC has at least 16GB free hard disk space, or the processor in Rebecca's PC runs faster than 1Ghz"}\).</p>
 </div>
@@ -185,8 +183,7 @@ The disjunction of \(p\) and \(q\), \(p \lor q\), is the proposition \(\text{"Re
 
 <div style="overflow:auto;">
 <p><b>Example 5</b> <br>
-Let \(p\) be the statement \(\text{"Maria learns discrete mathematics"}\) and \(q\) the statement \(\text{"Maria will find a good job"}\). Express the statement \(p \implies q\) as a statement in english.
-<br>
+Let \(p\) be the statement \(\text{"Maria learns discrete mathematics"}\) and \(q\) the statement \(\text{"Maria will find a good job"}\). Express the statement \(p \implies q\) as a statement in english.<br>
 <b>Solution</b> <br>
 \(p \implies q\) represents the statement \(\text{"if Maria learns discrete mathematics, then she will find a good
 job"}\).</p>
