@@ -76,7 +76,7 @@ If the domain consists of integers, \(\forall x(x^2 \geq x)\) is true, because t
 <p><b>Example 7</b><br>
 Let \(Q(x)\) denotes the statement \(\text{"\(x = x + 1\)"}\). What is the truth value of the quantification \(\exists x Q(x)\), where the domain consists of all real numbers?<br>
 <b>Solution</b><br>
-Because \(\Q(x)\) is false for every real number \(x\), \(\exists x Q(x)\) is false.</p>
+Because \(Q(x)\) is false for every real number \(x\), \(\exists x Q(x)\) is false.</p>
 
 <p>When all the elements in the domain can be listed--say, \(x_1, x_2, \ldots, x_n\)--the existential quantification \(\exists x P(x)\) is the same as the disjunction \[P(x_1) \land P(x_2) \land \dots \land P(x_n)\] because this conjunction is true if and only if at least one of \(P(x_1), P(x_2), \ldots, P(x_n)\) is true.</p>
 
