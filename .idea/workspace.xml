@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4122fc06-6c48-4b83-8a60-ea7a3080e6e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown" afterPath="$PROJECT_DIR$/_posts/2018-06-15-mathematical-logic-propositional-equivalences.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-06-16-mathematical-logic-predicates-and-quantifiers.markdown" afterPath="$PROJECT_DIR$/_posts/2018-06-16-mathematical-logic-predicates-and-quantifiers.markdown" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="2018-06-16-mathematical-logic-predicates-and-quantifiers.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-16-mathematical-logic-predicates-and-quantifiers.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="271" column="262" lean-forward="true" selection-start-line="271" selection-start-column="262" selection-end-line="271" selection-end-column="262" />
+            <state relative-caret-position="542">
+              <caret line="131" column="758" lean-forward="true" selection-start-line="131" selection-start-column="758" selection-end-line="131" selection-end-column="758" />
               <folding />
             </state>
           </provider>
@@ -199,12 +197,12 @@
       <updated>1528873612348</updated>
       <workItem from="1528873614367" duration="5227000" />
       <workItem from="1528891525586" duration="85274000" />
-      <workItem from="1529376422138" duration="36543000" />
+      <workItem from="1529376422138" duration="36779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127044000" />
+    <option name="totallyTimeSpent" value="127280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -416,8 +414,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-16-mathematical-logic-predicates-and-quantifiers.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="271" column="262" lean-forward="true" selection-start-line="271" selection-start-column="262" selection-end-line="271" selection-end-column="262" />
+        <state relative-caret-position="542">
+          <caret line="131" column="758" lean-forward="true" selection-start-line="131" selection-start-column="758" selection-end-line="131" selection-end-column="758" />
           <folding />
         </state>
       </provider>

@@ -208,8 +208,7 @@ First, we rewrite it so that the implied quantifiers and a domain are shown: \(\
 
 <div style="overflow:auto;">
 <p><b>Example 20</b><br>
-Translate the statement "Every real number except zero has a multiplicative inverse" (A multiplicative inverse of a real
- number \(x\) is a real number \(y\) such that \(xy = 1\)).<br>
+Translate the statement "Every real number except zero has a multiplicative inverse" (A multiplicative inverse of a real number \(x\) is a real number \(y\) such that \(xy = 1\)).<br>
 <b>Solution</b><br>
 First, we rewrite this as \(\text{"For every real number x except zero, x has a multiplicative inverse"}\). We can rewrite this as \(\text{"For every real number x, if \(x \not= 0\), then there exists a real number y such that xy = 1". This can be written as \[\forall x ((x \not= 0) \implies \exists y (xy = 1))\]
 </p>
@@ -219,9 +218,7 @@ First, we rewrite this as \(\text{"For every real number x except zero, x has a 
 <p><b>Example 21</b><br>
 Translate the statement \[\forall x(C(x) \lor \exists y(C(y) \land F(x, y)))\] into english, where \(C(x)\) is \(\text{"x has a computer"}\), \(F(x, y)\) is \(\text{"x and y are friends", and the domain for both \(x\) and \(y\) consists of all students in your school.<br>
 <b>Solution</b><br>
-The statement says that for every student \(x\) in your school, \(x\) has a computer or there is a student \(y\) such
-that \(y\) has a computer and \(x\) and \(y\) are friends. In other words, every student in your school has a computer
-or has a friend who has a computer.</p>
+The statement says that for every student \(x\) in your school, \(x\) has a computer or there is a student \(y\) such that \(y\) has a computer and \(x\) and \(y\) are friends. In other words, every student in your school has a computer or has a friend who has a computer.</p>
 </div>
 
 <div style="overflow:auto;">
@@ -266,8 +263,7 @@ By applying De Morgan's laws, we find that \(\neg \forall x \exists y(xy = 1)\) 
 
 <div style="overflow:auto;">
 <p><b>Example 27</b><br>
-Use quantifiers to express the statement that "There does not exist a woman who has taken a flight on every airplane in
-the world".<br>
+Use quantifiers to express the statement that "There does not exist a woman who has taken a flight on every airplane in the world".<br>
 <b>Solution</b><br>
 This statement is the negation of the statement "There is a woman who has taken a flight on every airplane in the world" from Example 25. By Example 25, that statement is expressed as \(\exists w \forall a \exists f(P(w, f) \land Q(f, a))\). By applying De Morgan's laws, we find the statement "There does not exist a woman who has taken a flight on every airplane the world" is equivalent to each of this sequence of statements:
  \begin{align}
