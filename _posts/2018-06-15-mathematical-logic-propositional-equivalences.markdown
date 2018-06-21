@@ -5,7 +5,7 @@ date: 2018-06-15 16:54:17 +0700
 description: Propositional Equivalences
 tags: [Mathematical Logic]
 ---
-<p><b>Definition 1</b> A compound proposition that is always true, no matter what the truth values of the propositional variables that occur in it, is called <em>tautology</em>. A compound proposition that is always false is called a <em>contradiction</em>. Acompound proposition that is neither a tautology nor a contradiction is called a <em>contingency</em>.
+<p><b>Definition 1</b> A compound proposition that is always true, no matter what the truth values of the propositional variables that occur in it, is called <em>tautology</em>. A compound proposition that is always false is called a <em>contradiction</em>. A compound proposition that is neither a tautology nor a contradiction is called a <em>contingency</em>.
 
 <p>Examples of a tautology and a contradiction</p>
 
