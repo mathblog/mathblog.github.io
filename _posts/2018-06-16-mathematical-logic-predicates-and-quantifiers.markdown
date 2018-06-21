@@ -69,7 +69,8 @@ If the domain consists of integers, \(\forall x(x^2 \geq x)\) is true, because t
 
 <p>Many mathematical statements assert that there is an element with a certain property. Such statements are expressed using existential quantification. With existential quantification, we form a proposition that is true if and only if \(P(x)\) is true for at least one value of \(x\) in the domain.</p>
 
-<p><b>Definition 2</b> The <em>existential quantification</em> of \(P(x)\) is the statement \[\text{"There exists an element \(x\) in the domain such that P(x)"}\] The notation \(\exists x P(x)\) denotes the existential quantification of \(P(x)\). Here \(\exists\) is called the existential quantifier.</p>
+<div style="overflow:auto;">
+<p><b>Definition 2</b> The <em>existential quantification</em> of \(P(x)\) is the statement \[\text{"There exists an element \(x\) in the domain such that P(x)"}\] The notation \(\exists x P(x)\) denotes the existential quantification of \(P(x)\). Here \(\exists\) is called the existential quantifier.</p></div>
 
 <p>Besides \(\text{"there exists"}\), existential quantification can be expressed in many other ways, such as by using the words \(\text{"for some"}\), \(\text{"for at least one"}\), or \(\text{"there is"}\). The existential quantification \(\exists x P(x)\) is read as \[\text{"There is an \(x\) such that P(x)"}\] \[\text{"There is at least one \(x\) such that P(x)"}\] or \[\text{"For some \(x\) P(x)"}\]</p>
 
@@ -168,7 +169,7 @@ We may prefer to use two-variable quantifier \(Q(x, y)\) for the statement \(\te
 Consider these statements. The first two are called premises and the third is called the conclusion. The entire set is called an argument. \[\text{"All lions are fierce"}\] \[\text{"Some lions don't drink coffee"}\] \[\text{"Some fierce creatures do not drink coffee"}\] Let \(P(x)\), \(Q(x)\), and \(R(x)\) be the statements \(\text{"x is a lion"}\), \(\text{"x is fierce"}\), and \(\text{"x drinks coffee"}\) respectively. Assuming the domain consists of all creatures, express the statements in the argument using quantifiers and \(P(x)\), \(Q(x)\), and \(R(x)\).<br>
 <b>Solution</b><br>
 We can express these statements as: \[\forall x(P(x) \implies Q(x))\] \[\exists x(P(x) \land \neg R(x))\] \[\exists x(Q(x) \land \neg R(x))\]
-Notice that the second statement cannot be written as \(\exists x(P(x) \implies \neg R(x))\). The reason is that \(P(x) \implies \neg R(x)\) is true whenever \(x\) is not a lion, so that \(\exists x(P(x) \implies \neg R(x))\) is true as long as there is at least one creature that is not a lion, even if every lion drinks coffee. Similarly, the third statement cannot be written as \[\exists x(Q(x) \implies \neg R(x))\].</p></div>
+Notice that the second statement cannot be written as \(\exists x(P(x) \implies \neg R(x))\). The reason is that \(P(x) \implies \neg R(x)\) is true whenever \(x\) is not a lion, so that \(\exists x(P(x) \implies \neg R(x))\) is true as long as there is at least one creature that is not a lion, even if every lion drinks coffee. Similarly, the third statement cannot be written as \[\exists x(Q(x) \implies \neg R(x))\]</p></div>
 
 <p>In working with quantifications of more than one variable, it is helpful to think in terms of nested loops. For example, to see whether \(\forall x \forall y P(x, y)\) is true, we loop through the values for \(x\), and for each \(x\) we loop through the values for \(y\). If we find that \(P(x, y)\) is true for all values for \(x\) and \(y\), we have determined that \(\forall x \forall y P(x, y)\) is true. If we ever hit a value \(x\) for which we hit a value \(y\) for which \(P(x, y)\) is false, we have shown that \(\forall x \forall y P(x, y)\) is false.</p>
 
