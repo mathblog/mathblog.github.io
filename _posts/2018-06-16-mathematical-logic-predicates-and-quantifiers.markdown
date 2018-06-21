@@ -208,7 +208,7 @@ First, we rewrite it so that the implied quantifiers and a domain are shown: \(\
 
 <div style="overflow:auto;">
 <p><b>Example 20</b><br>
-Translate the statement "Every real number except zero has a multiplicative inverse" (A multiplicative inverse of a real number \(x\) is a real number \(y\) such that \(xy = 1\)).<br>
+Translate the statement "Every real number except zero has a multiplicative inverse" (A multiplicative inverse of a real number \(x\) is a real number \(y\) such that \(xy = 1\).<br>
 <b>Solution</b><br>
 First, we rewrite this as \(\text{"For every real number x except zero, x has a multiplicative inverse"}\). We can rewrite this as \(\text{"For every real number x, if \(x \not= 0\), then there exists a real number y such that xy = 1". This can be written as \[\forall x ((x \not= 0) \implies \exists y (xy = 1))\]
 </p>
@@ -216,7 +216,7 @@ First, we rewrite this as \(\text{"For every real number x except zero, x has a 
 
 <div style="overflow:auto;">
 <p><b>Example 21</b><br>
-Translate the statement \[\forall x(C(x) \lor \exists y(C(y) \land F(x, y)))\] into english, where \(C(x)\) is \(\text{"x has a computer"}\), \(F(x, y)\) is \(\text{"x and y are friends", and the domain for both \(x\) and \(y\) consists of all students in your school.<br>
+Translate the statement \[\forall x(C(x) \lor \exists y(C(y) \land F(x, y)))\] into english, where \(C(x)\) is \(\text{"x has a computer"}\), \(F(x, y)\) is \(\text{"x and y are friends"\), and the domain for both \(x\) and \(y\) consists of all students in your school.<br>
 <b>Solution</b><br>
 The statement says that for every student \(x\) in your school, \(x\) has a computer or there is a student \(y\) such that \(y\) has a computer and \(x\) and \(y\) are friends. In other words, every student in your school has a computer or has a friend who has a computer.</p>
 </div>
@@ -249,7 +249,7 @@ The statement can be expressed as \(\text{"For every person x, peson x has exact
 Use quantifiers to express the statement "There is a woman who has taken a flight on every airline in the world".<br>
 <b>Solution</b><br>
 Let \(P(w, f)\) be \(\text{"w has taken f"}\) and \(Q(f, a)\) be \(\text{"f is a flight on a"}\). We can express the statement as \[\exists w \forall a \exists f(P(w, f) \land Q(f, a))\] where the domains of discourse for \(w\), \(f\), and \(a\) consist of all women in the world, all airplane flights, and all airlines, respectively.<br>
-The statement could also be expressed as \[\exists w \forall a \exists f R(w, f, a)\] where \(R(w, f, a)\) is \(\text{"w has taken f on a". Although this is more compact, it somewhat obscures the relationships among the variables. Consequently, the first solution is usually preferable.
+The statement could also be expressed as \[\exists w \forall a \exists f R(w, f, a)\] where \(R(w, f, a)\) is \(\text{"w has taken f on a"}\). Although this is more compact, it somewhat obscures the relationships among the variables. Consequently, the first solution is usually preferable.
 </p>
 </div>
 
