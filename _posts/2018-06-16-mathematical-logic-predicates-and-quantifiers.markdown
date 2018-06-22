@@ -203,7 +203,7 @@ The quantification \(\exists z \forall x \forall y Q(x, y, z)\), which is the st
 <p><b>Example 19</b><br>
 Translate the statement "The sum of two positive integers is always positive" into a logical expression.<br>
 <b>Solution</b><br>
-First, we rewrite it so that the implied quantifiers and a domain are shown: \(\text{"For every two integers, if these integers are both positive, then the sum of these integers is positive"}\). Next, we introduce the variables \(x\) and \(y\) to obtain \(\text{"For all positive numbers x and y, x + y is positive". We can express this statement as \[\forall x \forall y ((x > 0) \land (y > 0) \implies (x + y > 0))\] where the domain for both variables consists of all integers. We could also translate this using the positive integers as the domain. Then the statement becomes \(\text{"For every two positive integers, the sum of these integers is positive"}\). We can express this as \[\forall x \forall y (x + y > 0)\] where the domain for both variables consists of all positive integers.
+First, we rewrite it so that the implied quantifiers and a domain are shown: \(\text{"For every two integers, if these integers are both positive, then the sum of these integers is positive"}\). Next, we introduce the variables \(x\) and \(y\) to obtain \(\text{"For all positive numbers x and y, x + y is positive"}\). We can express this statement as \[\forall x \forall y ((x > 0) \land (y > 0) \implies (x + y > 0))\] where the domain for both variables consists of all integers. We could also translate this using the positive integers as the domain. Then the statement becomes \(\text{"For every two positive integers, the sum of these integers is positive"}\). We can express this as \[\forall x \forall y (x + y > 0)\] where the domain for both variables consists of all positive integers.
 </p>
 </div>
 
@@ -211,13 +211,13 @@ First, we rewrite it so that the implied quantifiers and a domain are shown: \(\
 <p><b>Example 20</b><br>
 Translate the statement "Every real number except zero has a multiplicative inverse" (A multiplicative inverse of a real number \(x\) is a real number \(y\) such that \(xy = 1\).<br>
 <b>Solution</b><br>
-First, we rewrite this as \(\text{"For every real number x except zero, x has a multiplicative inverse"}\). We can rewrite this as \(\text{"For every real number x, if \(x \not= 0\), then there exists a real number y such that xy = 1". This can be written as \[\forall x ((x \not= 0) \implies \exists y (xy = 1))\]
+First, we rewrite this as \(\text{"For every real number x except zero, x has a multiplicative inverse"}\). We can rewrite this as \(\text{"For every real number x, if \(x \not= 0\), then there exists a real number y such that xy = 1"}\). This can be written as \[\forall x ((x \not= 0) \implies \exists y (xy = 1))\]
 </p>
 </div>
 
 <div style="overflow:auto;">
 <p><b>Example 21</b><br>
-Translate the statement \[\forall x(C(x) \lor \exists y(C(y) \land F(x, y)))\] into english, where \(C(x)\) is \(\text{"x has a computer"}\), \(F(x, y)\) is \(\text{"x and y are friends"\), and the domain for both \(x\) and \(y\) consists of all students in your school.<br>
+Translate the statement \[\forall x(C(x) \lor \exists y(C(y) \land F(x, y)))\] into english, where \(C(x)\) is \(\text{"x has a computer"}\), \(F(x, y)\) is \(\text{"x and y are friends"}\), and the domain for both \(x\) and \(y\) consists of all students in your school.<br>
 <b>Solution</b><br>
 The statement says that for every student \(x\) in your school, \(x\) has a computer or there is a student \(y\) such that \(y\) has a computer and \(x\) and \(y\) are friends. In other words, every student in your school has a computer or has a friend who has a computer.</p>
 </div>
